@@ -1,0 +1,113 @@
+*{
+    margin:0;
+}
+
+main{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: solid 1px red;
+}
+#flexbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    border-radius: 15px;
+    
+
+}
+.zuli{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    width: 33%;
+    padding:20px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    height: 400px;
+}
+.zuli h1{
+    font-weight: 700;
+}
+.zuli *{
+    margin: 10px;
+}
+.luxury{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+}
+.sedan{
+    background-color: hsl(184, 100%, 22%);
+   
+}
+.suv{
+    background-color: hsl(179, 100%, 13%);
+    border-radius:0 5px 5px 0 ;
+}
+.luxury button{
+    color:hsl(31, 77%, 52%);
+    padding: 10px 20px;
+    background-color: hsl(0, 100%, 100%);
+    border-radius: 20px;
+    border: none;
+    max-width: 150px;
+}
+.sedan button{
+    color:hsl(184, 100%, 22%);
+    padding: 10px 20px;
+    background-color: hsl(0, 100%, 100%);
+    border-radius: 20px;
+    border: none;
+    max-width: 150px;
+}
+.suv button{
+    color:hsl(179, 100%, 13%);
+    padding: 10px;
+    background-color: hsl(0, 100%, 100%);
+    border-radius: 20px;
+    border: none;
+    max-width: 150px;
+
+}
+.luxury button:hover{
+    border: solid 1px white;
+    color:white;
+    background-color:hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+.sedan button:hover{
+    border: solid 1px white;
+    color:white;
+    background-color:hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+.suv button:hover{
+    border: solid 1px white;
+    color:white;
+    background-color:hsl(179, 100%, 13%); 
+    cursor: pointer;
+}
+header{
+    background-color: black;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 800;
+}
+nav button{
+    background-color: black;
+    border: solid 1px aliceblue;
+    padding: 15px;
+    margin: 10px;
+}
+nav button:hover{
+    background-color: rgb(233, 152, 30);
+    border: none;
+    padding: 15px;
+    margin: 10px;
+}
